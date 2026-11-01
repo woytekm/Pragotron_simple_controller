@@ -5,5 +5,7 @@ This is a very simple project. It only creates clock hand moving impulse every s
 As this is for 60V clock, it needs additonal step up converter generating around 40V (this is enough to move hands of 60V PS-1 movement). 
 So we have to enable converter, and then enable motor controller with polarity control, alternating polarity with each impulse. 
 
-
+This is an Adruino Studio project, with nRF52840 Supermini support enabled in Arduino Studio. 
+Enabling nFR52840 support in Arduino Studio on OS X was a huge pain in the ass. I don't even remember all steps i had to take to make it work. It took at lease one nightmarish evening. 
+This code should be converted to native nRF52840 C dev kit.
 
