@@ -6,6 +6,6 @@ As this is for 60V clock, it needs additonal step up converter generating around
 So we have to enable converter, and then enable motor controller with polarity control, alternating polarity with each impulse. 
 
 This is an Adruino Studio project, with nRF52840 Supermini support enabled in Arduino Studio. 
-Enabling nFR52840 support in Arduino Studio on OS X was a huge pain in the ass. I don't even remember all steps i had to take to make it work. It took at lease one nightmarish evening. 
+Enabling nRF52840 support in Arduino Studio on OS X was a huge pain in the ass. I don't even remember all steps i had to take to make it work. It took at lease one nightmarish evening. 
 This code should be converted to native nRF52840 C dev kit.
 
